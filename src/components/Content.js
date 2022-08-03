@@ -8,13 +8,15 @@ import { Switch, Route } from 'react-router-dom';
 
 function Content(){
     return(
-        <main className='flex-auto'>
+        <main className='flex-auto overflow-auto'>
             <Navbar/>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/search" component={Search} />
-                <Route path="/library" component={Library} />
-            </Switch>
+            <div className='px-8 py-5'>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/search" component={Search} />
+                    <Route path="/library" component={Library} />
+                </Switch>
+            </div>
         </main>
     )
 }

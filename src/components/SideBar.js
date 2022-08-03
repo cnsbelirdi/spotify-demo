@@ -7,7 +7,7 @@ import Playlists from './Sidebar/Playlists';
 
 function Sidebar(){
     return (
-        <aside className='w-60 pt-6 flex flex-col bg-black'>
+        <aside className='w-60 pt-6 flex flex-col flex-shrink-0 bg-black'>
             <NavLink to="/" className='mb-7 px-6'>
                 <img src={logo} alt="" className='h-10' />
             </NavLink>
