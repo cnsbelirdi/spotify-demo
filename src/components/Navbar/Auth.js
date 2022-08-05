@@ -23,7 +23,7 @@ function Auth(){
                         {({ active }) => (
                             <a
                             className={`h-10 flex justify-between items-center px-2 text-sm rounded ${active && 'bg-white bg-opacity-20'}`}
-                            href="#"
+                            href="/"
                             >
                             Hesap
                             <Icon name="external" size="16" />
@@ -34,7 +34,7 @@ function Auth(){
                         {({ active }) => (
                             <a
                             className={`h-10 flex items-center px-2 text-sm rounded ${active && 'bg-white bg-opacity-20'}`}
-                            href="#"
+                            href="/"
                             >
                             Profil
                             </a>
@@ -44,7 +44,7 @@ function Auth(){
                         {({ active }) => (
                             <a
                             className={`h-10 flex items-center px-2 text-sm rounded ${active && 'bg-white bg-opacity-20'}`}
-                            href="#"
+                            href="/"
                             >
                             Oturumu Kapat
                             </a>
