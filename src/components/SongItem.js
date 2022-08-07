@@ -46,10 +46,10 @@ function SongItem({ item }){
                     <Icon name={ isCurrentItem ? 'pause' : 'play'} size="16" />
                 </button>
             </div>
-            <h6 className='overflow-hidden overflow-ellipsis whitespace-nowrap text-base font-semibold'>
+            <h6 className='overflow-hidden overflow-ellipsis whitespace-nowrap text-base font-semibold line-clamp-1'>
                 {item.name}
             </h6>
-            <p className='text-link text-sm mt-1'>
+            <p className='overflow-hidden overflow-ellipsis whitespace-nowrap text-link text-sm mt-1 line-clamp-1'>
                 {item.artist}
             </p>
         </NavLink>

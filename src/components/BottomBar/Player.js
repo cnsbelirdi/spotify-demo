@@ -64,7 +64,7 @@ function Player(){
                             )}
                             <div>
                                 <h6 className='text-sm line-clamp-1'>{current.name}</h6>
-                                <p className='text-[0.688rem] text-white text-opacity-70'>{current.artist}</p>
+                                <p className='text-[0.688rem] text-white text-opacity-70 line-clamp-1'>{current.artist}</p>
                             </div>
                         </div>
                         <button className='w-8 h-8 flex items-center justify-center text-white text-opacity-70 hover:text-opacity-100'>

@@ -91,14 +91,16 @@ function Home(){
             name: 'As It Was',
             artist: 'Harry Styles',
             image: 'https://i.scdn.co/image/ab67616d00001e02b46f74097655d7f353caab14',
-            type: 'album'
+            type: 'album',
+            src: 'https://www.mp3indirdur.info/mp3/indirdurArsiv333/Harry-Styles/Adore-You/Harry-Styles-As-It-Was.mp3'
         },
         {
             id: 12,
             name: 'MIDDLE OF THE NIGHT',
             artist: 'Elley Duhé',
             image: 'https://i.scdn.co/image/ab67616d00001e0253a2e11c1bde700722fecd2e',
-            type: 'album'
+            type: 'album',
+            src: 'https://www.mp3indirdur.info/mp3/indirdurArsiv333/Elley-Duhe/Middle-Of-The-Night/Elley-Duhe-Middle-Of-The-Night.mp3'
         },
     ]
     return (
