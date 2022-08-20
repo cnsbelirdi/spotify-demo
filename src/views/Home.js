@@ -42,7 +42,7 @@ function Home(){
             artist: 'Dolu Kadehi Ters Tut',
             image: 'https://i.scdn.co/image/ab67616d00001e026fe95571c6f69edac303e786',
             type: 'album',
-            src: 'https://www.mp3indirdur.info/mp3/indirdurArsiv333/Dolu-Kadehi-Ters-Tut/Oylece-Durdun/Dolu-Kadehi-Ters-Tut-Bir-Bildigin-Vardir.mp3'
+            src: 'https://cdnguncelmp3indir.com/download/dolu-kadehi-ters-tut/oylece-durdun/Dolu-kadehi-ters-tut_Bir-bildigin-vardir.mp3'
         },
         {
             id: 6,

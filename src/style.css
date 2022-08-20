@@ -661,6 +661,10 @@ html,  body,  #root {
   margin-right: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -691,18 +695,6 @@ html,  body,  #root {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -937,36 +929,23 @@ html,  body,  #root {
   gap: 1.5rem;
 }
 
-.gap-x-6 {
-  -webkit-column-gap: 1.5rem;
-          column-gap: 1.5rem;
-}
-
 .gap-x-4 {
   -webkit-column-gap: 1rem;
           column-gap: 1rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
+.gap-x-6 {
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
 }
 
 .gap-x-2 {
   -webkit-column-gap: 0.5rem;
           column-gap: 0.5rem;
-}
-
-.gap-x-8 {
-  -webkit-column-gap: 2rem;
-          column-gap: 2rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
-}
-
-.gap-y-4 {
-  row-gap: 1rem;
 }
 
 .self-center {
@@ -1071,14 +1050,6 @@ html,  body,  #root {
   --tw-bg-opacity: 0.2;
 }
 
-.bg-opacity-40 {
-  --tw-bg-opacity: 0.4;
-}
-
-.bg-opacity-0 {
-  --tw-bg-opacity: 0;
-}
-
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -1143,11 +1114,6 @@ html,  body,  #root {
   padding-right: 0.5rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1160,12 +1126,12 @@ html,  body,  #root {
   padding-right: 0.5rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
-}
-
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .text-2xl {
@@ -1284,10 +1250,6 @@ html,  body,  #root {
   background-color: rgb(40 40 40 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-opacity-100:hover {
-  --tw-bg-opacity: 1;
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1304,14 +1266,6 @@ html,  body,  #root {
 
 .hover\:\!opacity-100:hover {
   opacity: 1 !important;
-}
-
-.active\:bg-opacity-20:active {
-  --tw-bg-opacity: 0.2;
-}
-
-.active\:bg-opacity-100:active {
-  --tw-bg-opacity: 1;
 }
 
 .group:hover .group-hover\:flex {
