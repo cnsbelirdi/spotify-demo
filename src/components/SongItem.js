@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from 'Icons';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { setCurrent } from 'stores/player';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -35,7 +35,7 @@ function SongItem({ item }){
     const isCurrentItem = (current?.id === item.id && playing)
 
     return (
-        <NavLink to="/" key={item.id} className={"bg-footer p-4 rounded hover:bg-active group"}>
+        <NavLink to={useLocation().pathname} key={item.id} className={"bg-footer p-4 rounded hover:bg-active group mb-5"}>
             <div className='pt-[100%] relative mb-4'>
 
                 <img src={item.image} alt="" className={`absolute inset-0 object-cover w-full h-full ${imageStyle(item)}`} />

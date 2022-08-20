@@ -104,7 +104,7 @@ function Home(){
         },
     ]
     return (
-        <div className='grid gap-y-8'>
+        <div className='grid gap-y-4'>
             <Section 
                 title="Yakınlarda Çalınanlar"
                 more="/blabla"
